@@ -1,0 +1,100 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  position: relative; /* Needed for positioning the theme toggle button */
+}
+
+/* Header */
+header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+/* Theme toggle button */
+#theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#theme-toggle i {
+  font-size: 24px;
+}
+
+/* Light/Dark Mode Styles */
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+}
+
+.dark-mode header {
+  background-color: #222;
+}
+
+.dark-mode h2 {
+  color: #90c4ff;
+}
+
+.dark-mode button {
+  background-color: #555;
+  color: white;
+}
+
+.dark-mode button:hover {
+  background-color: #777;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #357ab8;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 40px;
+  color: #777;
+}
